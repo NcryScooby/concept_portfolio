@@ -14,4 +14,8 @@ export const Container = styled.header`
     justify-content: space-between;
     gap: 48px;
   }
+
+  li {
+    cursor: pointer;
+  }
 `;

@@ -9,6 +9,28 @@ export const Container = styled.section`
   padding: 0 96px;
   position: relative;
 
+  #effect4 {
+    position: absolute;
+    top: 125px;
+  }
+
+  #effect5 {
+    position: absolute;
+    top: 210px;
+    left: 450px;
+  }
+
+  #effect6 {
+    position: absolute;
+    top: 550px;
+    left: 250px;
+  }
+
+  #effect7 {
+    position: absolute;
+    right: 400px;
+  }
+
   div:first-child {
     display: flex;
     flex-direction: column;
@@ -29,7 +51,7 @@ export const Container = styled.section`
   }
 
   div:last-child {
-    #effect {
+    #effect3 {
       position: absolute;
       right: 100px;
       top: 100px;

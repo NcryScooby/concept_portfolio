@@ -13,11 +13,6 @@ export const GlobalStyles = createGlobalStyle`
     color: #EEEEEE;
   }
 
-  #root{
-    display: grid;
-    grid-template-rows: repeat(4, 1fr);
-  }
-
   a {
     text-decoration: none;
     color: inherit;
