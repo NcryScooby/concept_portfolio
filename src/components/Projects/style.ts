@@ -10,6 +10,7 @@ export const Container = styled.section`
   padding: 0 96px;
   position: relative;
   background-image: url(${background});
+  gap: 2rem;
 
   h2 {
     margin: 0;
@@ -20,14 +21,21 @@ export const Container = styled.section`
     }
   }
 
-  div:last-child {
+  .projects {
     display: flex;
-
     gap: 2rem;
+    justify-content: center;
+
     img {
       width: 368px;
       height: 201px;
-      border-radius: 12px;
+      border-radius: 4px;
+    }
+
+    p {
+      font-size: 18px;
+      margin: 5px 0;
+      padding-left: 8px;
     }
   }
 `;

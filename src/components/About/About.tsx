@@ -18,10 +18,9 @@ const About = () => {
             About <span>Me</span>
           </h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur,
-            quisquam necessitatibus. Odit libero maiores eveniet error modi. Qui
-            minima numquam, doloribus incidunt, reprehenderit a voluptas velit
-            eos eligendi, tenetur ad.
+            Developer and Student of Systems Analysis and Development. I am a
+            proactive, optimistic person who loves what he does and is always
+            looking for new knowledge.
           </p>
         </div>
         <div>

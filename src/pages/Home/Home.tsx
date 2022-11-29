@@ -3,6 +3,8 @@ import Introduction from "../../components/Introduction/Introduction";
 import About from "../../components/About/About";
 import Projects from "../../components/Projects/Projects";
 import { Grid } from "./style";
+import SendMessage from "../../components/SendMessage/SendMessage";
+import Footer from "../../components/Footer/Footer";
 
 const Home = () => {
   return (
@@ -14,7 +16,9 @@ const Home = () => {
         </span>
         <About />
         <Projects />
+        <SendMessage />
       </Grid>
+      <Footer />
     </>
   );
 };
