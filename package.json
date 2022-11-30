@@ -3,11 +3,9 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "concept_portfolio/",
   "scripts": {
     "dev": "vite --host --port 3000",
     "build": "tsc && vite build",
-    "ci": "yarn install --frozen-lockfile",
     "preview": "vite preview"
   },
   "dependencies": {
