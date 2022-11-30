@@ -7,7 +7,6 @@
   "scripts": {
     "dev": "vite --host --port 3000",
     "build": "tsc && vite build",
-    "ci": "yarn install --frozen-lockfile",
     "preview": "vite preview"
   },
   "dependencies": {
