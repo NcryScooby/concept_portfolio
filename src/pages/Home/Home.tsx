@@ -10,15 +10,23 @@ const Home = () => {
   return (
     <>
       <Grid>
-        <span>
+        <section className="one">
           <Header />
           <Introduction />
-        </span>
-        <About />
-        <Projects />
-        <SendMessage />
+        </section>
+        <section className="two">
+          <About />
+        </section>
+        <section className="three">
+          <Projects />
+        </section>
+        <section className="four">
+          <SendMessage />
+        </section>
+        <section className="five">
+          <Footer />
+        </section>
       </Grid>
-      <Footer />
     </>
   );
 };
